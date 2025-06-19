@@ -1,0 +1,37 @@
+site_name: CupcakeAPI Docs
+site_description: Documentation for CupcakeAPI, a RESTful API for managing cupcake orders.
+site_author: CupcakeAPI Team
+
+theme:
+  name: material
+  language: es
+  features:
+    - content.code.annotate
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
+  - pymdownx.snippets
+  - toc:
+      permalink: "#"
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      use_pygments: true
+      css_class: "highlight"
+
+
+nav:
+  - Home: index.md
+  - Guia de uso:
+      - Introduccion: guia/inicio.md
+      - Autenticacion: guia/autenticacion.md
+      - Endpoints: guia/endpoints.md
+      - Uso: guia/uso.md
+  - Recursos:
+      - Preguntas frecuentes: recursos/preguntas.md
+      - Cambios recientes: recursos/changelog.md
