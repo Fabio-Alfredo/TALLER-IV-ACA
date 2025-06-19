@@ -1,6 +1,6 @@
 # 🐾 Bienvenido a PupAPI
 
-![Banner de PupAPI](./img/banner.jpg)
+![Banner de PupAPI](./img/banner.png)
 
 **PupAPI** es una API RESTful pensada para gestionar perritos en refugios, clínicas veterinarias y plataformas de adopción. Ofrece endpoints seguros y estructurados para registrar, consultar y actualizar toda la información relacionada con nuestros amigos peludos.
 
